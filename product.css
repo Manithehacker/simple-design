@@ -1,0 +1,695 @@
+.main{
+    width: 1440px;
+    height: 4310px;
+    background: #FFFFFF;
+
+}
+
+/*nav bar start*/
+/* nav bar start*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color:  #222222;
+    
+}
+
+nav ul li .home{
+    position: absolute;
+    width: 53.78px;
+    height: 27px;
+    top: 53.01px;
+    left: 879px;
+    text-decoration: none;
+    font-family: Poppins;
+}
+nav ul li .about{
+    position: absolute;
+    width: 82.74px;
+    height: 27px;
+    top: 53.01px;
+    left: 971px;
+   
+}
+nav ul li .products{
+    position: absolute;
+    width: 119.98px;
+    height: 27px;
+    top: 53.01px;
+    left: 1091px;
+}
+nav ul li .contact{
+    position: absolute;
+    width: 98px;
+    height: 31.92px;
+    top: 53.01px;
+    left: 1250px;
+}
+nav a:after{
+    content: "";
+    position:absolute;
+    background-color: #E06429 ;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+nav a:hover{
+    color: #E06429;
+}
+nav a:hover::after{
+    width: 100%;
+    
+}
+/*nav bar end*/
+
+/*heading*/
+.heading{
+    width: 653px;
+    height: 59px;
+    position: absolute;
+    top: 203px;
+    left: 151px;
+
+}
+.heading p{
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 81px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+}
+.contactsection .homemenu{
+    width: 98px;
+    height: 24px;
+    position: absolute;
+    top: 336px;
+    left: 152px;
+    font-style: Text normal;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color:#8b96a5;
+
+}
+.contactsection .activemenu{
+    width: 146px;
+    height: 20px;
+    position: absolute;
+    top: 331px;
+    left: 269px;
+    padding: 5px 6.912890911102295px 5px 6.912109375px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #04A0A8;
+
+}   
+.contactsection svg{
+    width: 9px;
+    height: 16px;
+    position: absolute;
+    top: 337px;
+    left: 250px;
+    padding: 5px 6.912890911102295px 5px 6.912109375px;
+
+}
+
+/*corporate*/
+.corporate{
+    width: 1180px;
+    height: 737px;
+    top: 398px;
+    left: 152px;
+    position: absolute;
+    border: 1px solid #DEE2E7
+}
+.photo{
+    width: 380px;
+    height: 547.7970581054688px;
+    position: absolute;
+    top: 20.604px;
+    left: 17px;
+}
+.texts p{
+    width: 188px;
+    height: 27.73655891418457px;
+    position: absolute;
+    top: 23.397827px;
+    left: 444px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.20000000224px;
+    text-align: left;
+    color:#04a0a8;
+}
+.para p{
+    width: 702px;
+    height: 277.36px;
+    position: absolute;
+    top: 55.04px;
+    left: 444px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.fabric p{
+    width: 221px;
+    height: 27.73px;
+    position: absolute;
+    top: 360.07px;
+    left: 443px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #04A0A8;
+
+}
+.para2 p{
+    width: 702px;
+    height: 242.69px;
+    position: absolute;
+    top: 393.71px;
+    left: 444px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000000;
+}
+
+/*gallery*/
+.gallery{
+    width: 1440px;
+height: 2833px;
+top: 1125px;
+position: absolute  ;
+
+}
+.gallery p{
+    width: 134px;
+    height: 34px;
+    position: absolute;
+    top: 18px;
+    left: 122px;
+    font-family: Clash Display;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+   color: #B0B0C0;
+    
+}
+.gallery span{
+    width: 164px;
+    height: 62px;
+    position: absolute;
+    top: 65px;
+    left: 122px;
+    font-family: Clash Display;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #E06429;    
+}
+.gallery img{
+    width: 1227px;
+    height: 500px;
+    position: absolute;
+    top: -74px;
+    left: 122px;
+    padding: 113px 0.4500732421875px 0px 0px;
+
+}
+
+/*process*/
+.process{
+    width: 1440px;
+    height: 137px;
+    position: absolute;
+    top: 1731px;
+    background: #ECFEFF;
+}
+.process p{
+    width: 452px;
+    height: 58px;
+    position: absolute;
+    top: -11px;
+    left: 495.6px;
+    font-family: Clash Display;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #04A0A8;
+}    
+.process2 p{
+    width: 1257px;
+    height: 124px;
+    top: 1907px;
+    left: 92px;
+    position:absolute;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #242424;
+
+}
+.png{
+    width: 1141px;
+    height: 946px;
+    position: absolute;
+    top: 2172px;
+    left: 119px;
+
+}
+
+.Fabric{
+    width: 1337px;
+    height: 296px;
+    position: absolute;
+    top: 3301px;
+    
+}
+.Fabric p{
+    width: 424px;
+    height: 58px;
+    position: absolute;
+    top: -117px;
+    left: 508px;
+    font-family: Clash Display;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#04A0A8;
+}
+.tex{
+    width: 1234px;
+    height: 124px;
+    position: absolute;
+    top: 100px;
+    left: 103px;
+
+}
+.tex p{
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0em;
+    
+    color:  #242424;
+    position: absolute;
+    top: 3204px;
+}
+.tex button{
+    width: 276px;
+    height: 46px;
+    position: absolute;
+    top: 3360px;
+    left: 457px;
+    background-color: #E06429;
+    color: white;
+    border-radius: 27px;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.quote{
+    width: 1440px;
+    height: 291px;
+    top: 3667px;
+    position: absolute;
+    background:#04A0A8;
+}
+.quote1{
+    width: 398px;
+    height: 62px;
+    position: absolute;
+    top: -23px;
+    left: 521px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#ffffff;
+}
+.quote2{
+    width: 306px;
+    height: 34px;
+    position: absolute;
+    top: 83px;
+    left: 567px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#ffffff;
+}
+.quote button{
+    width: 291px;
+    height:  46px;
+    position: absolute;
+    top: 160px;
+    left: 574px;
+    border-radius: 73px;
+    gap: 10px;
+    background: #E38903;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+/*footer section*/
+footer{
+    width: 1440.24px;
+    height: 352.05px;
+    position:absolute;
+    top: 3958px;
+    background-color: #000000;
+}
+.copyright{
+    width: 219.27px;
+    height: 21px;
+    position: absolute;
+    top: 298.06px;
+    left: 34.001px;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+}
+.copyright p{
+    color: #FFFFFF;
+
+}
+.copyright a{
+    color: #E06429;
+}
+.quicklinks{
+    width: 87px;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+    left: 572.10009765625px;
+
+}
+.quicklinks p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #17C1CA;
+}
+.quicklinks ul li{
+    list-style: none;
+
+}
+.quicklinks ul li a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;    
+}
+.quicklinks ul li .home1{
+    width: 48px;
+    height: 24px;
+    position: absolute;
+    top: 50px;
+    left: 2.103394px;
+    
+}
+.quicklinks ul li .about1{
+    width: 72px;
+    height: 24px;
+    position: absolute;
+    top: 80px;
+    left: 2.103394px;
+    
+}
+.quicklinks ul li .products1{
+    width: 104px;
+    height: 24px;
+    position: absolute;
+    top: 113px;
+    left: 2.103394px;
+    
+}
+.quicklinks ul li .contact1{
+    width: 89px;
+    height: 24px;
+    position: absolute;
+    top: 180px;
+    left: 2.103394px;
+    
+}
+.quicklinks ul li .gallery{
+    width: 57px;
+    height: 24px;
+    position: absolute;
+    top: 147px;
+    left: 2.103394px;
+
+}
+
+/*copy right1*/
+.copyright1{
+    width: 286px;
+    height: 21px;
+    position: absolute;
+    top: 298.06px;
+    left: 582.22px;
+
+}
+.copyright1 p{
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+}
+
+/*address*/
+.address{
+    width: 66px;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+    left: 786.1334838867188px;
+
+}
+.address .add{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #17C1CA;
+}
+.address p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#ffffff;
+}
+.address .add1{
+    width: 230px;
+    height: 48px;
+    position: absolute;
+    top: 40px;
+    left: -1px;
+  
+}
+.address .add2{
+    width: 230px;
+    height: 48px;
+    position: absolute;
+    top: 103px;
+    left: -1px;
+  
+}
+
+/*website*/
+.website{
+    width: 66px;
+    height: 24px;
+    position: absolute;
+    top: 23px;
+    left: 1107.1875px;
+
+}
+.website .sitename{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #17C1CA;
+    }
+.website .sitelink{
+    width: 136.52857971191406px;
+    height: 24px;
+    top: 35px;
+    left: 3px;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+}
+
+/*call us*/
+
+.call{
+    width: 55px;
+    height: 24px;
+    position: absolute;
+    top: 100px;
+    left: 1107px;
+
+}
+.call .callus{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #17C1CA;
+}
+.call .num3{
+    width: 111.70520782470703px;
+    height: 24px;
+    top: 241px;
+    left: 1107.0020751953125px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#ffffff;
+}
+.call .num4{
+    
+    width: 115.70px;
+    height: 24px;
+    top: 245px;
+    left: 1107.0020751953125px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#ffffff;
+}
+/* follow us*/
+.follow{
+    width: 95px;
+    height: 24px;
+    position: relative;
+    top: 227px;
+    left: 1108.31px;
+}
+.follow p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #17C1CA;
+}
+.follow .imge1{
+    width: 38.5px;
+    height: 38.5px;
+
+    top: 254px;
+    left: 1109.87px;
+    border-radius: 50px;
+    color: #E8E8F6;
+
+}
+.follow .imge2{
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 253px;
+    left: 1154.12px;
+    border-radius:50px ;
+    color: #E8e8f6;
+}
